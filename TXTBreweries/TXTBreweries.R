@@ -34,8 +34,8 @@ pal = colorFactor(colorRampPalette( c("green", "red"), space = "rgb")(4),
 
 
 m  =  leaflet(data = data.df) %>% setView(lng = 10.3833, lat = 50.5167, zoom = 6)
-m %>% addProviderTiles("CartoDB.Positron") %>%
+m %>% addProviderTiles("OpenStreetMap.HOT") %>%
       addCircleMarkers(lng = ~lon, lat = ~lat, radius = ~data.df$NoBeer.size,
                        popup  = ~paste(Brewery, ": ", NoBeer, " beers", Avg, " as avg score",sep = ""),
                        color  = ~pal(Avg.class),
-                       stroke = FALSE, fillOpacity = 0.3)
+                       stroke = FALSE, fillOpacity = 0.8)

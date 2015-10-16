@@ -1,3 +1,23 @@
+# ------------------------------------------------------------------------------
+# Name of Quantlet: TXTBreweries
+# ------------------------------------------------------------------------------
+# Published in:     TXT
+# ------------------------------------------------------------------------------
+# Description:      Plots locations and scores of German breweries. Red indicates bad scores while green indicates good scores.
+#                   The size of each bubble represents the number of beers that are produced by an individual brewery.
+# ------------------------------------------------------------------------------
+# Keywords:         data visualization, interactive, sentiment, visualization, plot
+# ------------------------------------------------------------------------------
+# Output:           interactive map of breweries
+# ------------------------------------------------------------------------------
+# Example:          interactive map of German breweries
+# ------------------------------------------------------------------------------
+# See also:         China_example, FWPMpowermap, TXTSimulation, TXTSimulationAttention
+# ------------------------------------------------------------------------------
+# Author:           Yafei Xu
+# ------------------------------------------------------------------------------
+# Datafiles:        TXTGermanBrewerieslonlat.RDS
+# ------------------------------------------------------------------------------
 ## Clear history
 rm(list = ls(all = TRUE))
 graphics.off()

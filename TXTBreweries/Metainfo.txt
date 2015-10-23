@@ -1,0 +1,24 @@
+Name of QuantLet : TXTBreweries
+
+Published in : TXT
+
+Description : 'Plots locations and customer ratings of German breweries.
+Red indicates bad scores while green indicates good scores.
+The size of each bubble represents the number of beers that are produced by an individual brewery.'
+
+Keywords : data visualization, interactive, sentiment, visualization, plot
+
+Keywords[new] : map, web data, opinion mining
+
+See also : China_example, FWPMpowermap, TXTSimulation, TXTSimulationAttention
+
+Author : Elisabeth Bommes
+
+Submitted : 
+
+Example : 
+- Map of breweries
+
+TXTGermanBrewerieslonlat.RDS : 'Data set scraped from beeradvocate.com.
+Contains names and location (longitude, latitude) of German breweries as well
+as their number of produced beers and average rating'

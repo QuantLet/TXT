@@ -1,3 +1,4 @@
+
 Name of QuantLet : TXTBreweries
 
 Published in : TXT
@@ -17,7 +18,7 @@ Author : Elisabeth Bommes
 Submitted : 
 
 Example : 
-- Map of breweries
+- interactive map of German breweries
 
 TXTGermanBrewerieslonlat.RDS : 'Data set scraped from beeradvocate.com.
 Contains names and location (longitude, latitude) of German breweries as well

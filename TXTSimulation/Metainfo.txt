@@ -1,3 +1,4 @@
+
 Name of QuantLet : TXTSimulation
 
 Published in : TXT
@@ -15,7 +16,6 @@ Author : Elisabeth Bommes
 
 Submitted : 
 
-Example : 
-- Plot of entire panel regression
+Example : Plot of entire panel regression
 
 TXTSimulation.RDS : 'Simulated sentiment and volatility values for the "Entire Panel Regression".'

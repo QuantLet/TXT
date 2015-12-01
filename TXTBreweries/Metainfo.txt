@@ -17,8 +17,7 @@ Author : Elisabeth Bommes
 
 Submitted : 
 
-Example : 
-- interactive map of German breweries
+Example : interactive map of German breweries
 
 TXTGermanBrewerieslonlat.RDS : 'Data set scraped from beeradvocate.com.
 Contains names and location (longitude, latitude) of German breweries as well

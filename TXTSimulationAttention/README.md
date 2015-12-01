@@ -4,32 +4,34 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **TXTSimulationAttention** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
-
 Name of QuantLet : TXTSimulationAttention
 
 Published in : TXT
 
-Description : 'Plots simulation results of stock volatility based on the regression results of the attention panels. In the panel model,
-sentiment projections of three different sentiment lexica have been used. Furthermore, the mean curve and corresponding confidence bands
-are plotted to investigate the asymmetric reaction of volatility given positive and negative sentiment.'
+Description : 'Plots simulation results of stock volatility based on the regression results of the
+attention panels. In the panel model, sentiment projections of three different sentiment lexica
+have been used. Furthermore, the mean curve and corresponding confidence bands are plotted to
+investigate the asymmetric reaction of volatility given positive and negative sentiment.'
 
-Keywords : 'confidence-bands, estimation, nonparametric, nonparametric estimation, plot, regression, scatterplot, simulation, volatility'
+Keywords : 'confidence-bands, estimation, nonparametric, nonparametric estimation, plot,
+regression, scatterplot, simulation, volatility'
 
-See also : 'MSEconfexpectile0.95, QRBSGumbel, SFSbootband, SFSbootband, SFSconfexpectile0.95, SFSconfexpectile0.95, SPMengelconf,
-TXTBreweries, TXTSimulation, XFGSPDcb2'
+See also : 'MSEconfexpectile0.95, QRBSGumbel, SFSbootband, SFSbootband, SFSconfexpectile0.95,
+SFSconfexpectile0.95, SPMengelconf, TXTBreweries, TXTSimulation, XFGSPDcb2'
 
 Author : Elisabeth Bommes
 
-Submitted : 
+Submitted :
 
 Example : 
 - Plot of "High Attention Panel Regression"
 - Plot of "Low Attention Panel Regression"
 
-TXTSimulationAttentionHigh.RDS : 'Simulated sentiment and volatility values for the "High Attention Panel Regression".'
+TXTSimulationAttentionHigh.RDS : 'Simulated sentiment and volatility values for the "High Attention
+Panel Regression".'
 
-TXTSimulationAttentionLow.RDS : 'Simulated sentiment and volatility values for the "Low Attention Panel Regression".'
-
+TXTSimulationAttentionLow.RDS : 'Simulated sentiment and volatility values for the "Low Attention
+Panel Regression".'
 ```
 
 ![Picture1](TXTSimulationAttention1.png)

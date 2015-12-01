@@ -28,9 +28,11 @@ Example :
 - Plot of "High Attention Panel Regression"
 - Plot of "Low Attention Panel Regression"
 
-TXTSimulationAttentionHigh.RDS : 'Simulated sentiment and volatility values for the "High Attention Panel Regression".'
+TXTSimulationAttentionHigh.RDS : 'Simulated sentiment and volatility values for the "High Attention Panel 
+Regression".'
 
-TXTSimulationAttentionLow.RDS : 'Simulated sentiment and volatility values for the "Low Attention Panel Regression".'
+TXTSimulationAttentionLow.RDS : 'Simulated sentiment and volatility values for the "Low Attention Panel 
+Regression".'
 
 
 

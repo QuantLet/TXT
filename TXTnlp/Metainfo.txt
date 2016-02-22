@@ -10,7 +10,7 @@ Keywords : text mining, data mining, counts
 
 Keywords[new] : text, web data, nlp, tokenization, pos-tagging, lemmatization, wordnet
 
-See also : TXTBreweries, TXTSimulation, TXTSimulationAttention
+See also : TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTMcDlm
 
 Author : Elisabeth Bommes
 
@@ -18,4 +18,4 @@ Submitted : Elisabeth Bommes
 
 Example : Output
 
-mcd_long.txt : 'Text scraped from Nasdaq community articles. Article is about Mc Donald's.'
+mcd_long.txt : 'Text scraped from Nasdaq community articles. Article is about Mc Donald''s.'

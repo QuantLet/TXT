@@ -1,0 +1,24 @@
+Name of QuantLet : TXTMcDlm
+
+Published in : TXT
+
+Description : 'Counts positive and negative words using the lexicon by Loughran and McDonald.
+Please install required Python packages before usage: os, io, collections, nltk.'
+
+Keywords : text mining, data mining, counts, sentiment
+
+Keywords[new] : text, web data, nlp, tokenization, opinion mining
+
+See also : TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTnlp
+
+Author : Elisabeth Bommes
+
+Submitted : Elisabeth Bommes
+
+Example : Output
+
+mcd_short.txt : 'Text scraped from Nasdaq community articles. Article is about Mc Donald''s.
+This is the shortened version (example used in slides).'
+
+lm_neg.csv : 'Negative words in LM lexicon'
+lm_pos.csv : 'Positive words in LM lexicon'

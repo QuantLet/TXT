@@ -3,7 +3,7 @@ import io
 from nltk.tokenize import word_tokenize
 
 # Set working directory
-os.chdir('/Users/EB/Google Drive/Projects/LvB/Q/TXT/TXTMcDbl')
+os.chdir('')
 
 ### Functions
 def rempct(s):

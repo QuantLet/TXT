@@ -1,0 +1,21 @@
+Name of QuantLet : TXTnlp
+
+Published in : TXT
+
+Description : 'Shows basic functionalities of natural language processing:
+sentence and word tokenization, part-of-speech tagging, lemmatization, stopword removal and word counting.
+POS-tags are converted to WordNet compatible tags such that the WordNet lemmatizer can be used. Please install required Python packages before usage: os, io, types, collections, textblob, nltk.'
+
+Keywords : text mining, data mining, counts
+
+Keywords[new] : text, web data, nlp, tokenization, pos-tagging, lemmatization, wordnet
+
+See also : TXTBreweries, TXTSimulation, TXTSimulationAttention
+
+Author : Elisabeth Bommes
+
+Submitted : Elisabeth Bommes
+
+Example : Output
+
+mcd_long.txt : 'Text scraped from Nasdaq community articles. Article is about Mc Donald's.'

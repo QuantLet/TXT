@@ -9,11 +9,11 @@ Keywords : text mining, data mining, counts, sentiment
 
 Keywords[new] : text, web data, nlp, tokenization, opinion mining
 
-See also : TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTnlp
+See also : TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTnlp, TXTMcDbl
 
 Author : Elisabeth Bommes
 
-Submitted : Elisabeth Bommes
+Submitted : 
 
 Example : Output
 

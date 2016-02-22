@@ -21,4 +21,5 @@ mcd_short.txt : 'Text scraped from Nasdaq community articles. Article is about M
 This is the shortened version (example used in slides).'
 
 lm_neg.csv : 'Negative words in LM lexicon'
+
 lm_pos.csv : 'Positive words in LM lexicon'

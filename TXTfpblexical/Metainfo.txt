@@ -1,0 +1,36 @@
+Name of QuantLet : TXTfpblexical
+
+Published in : TXT
+
+Description : 'Counts positive and negative words using the lexicon by Loughran and McDonald
+and the lexicon by Bing Liu. Then, the results are evaluated by using the training set of
+Malo et al. (2014) and computing a confusion matrix.
+
+This training set is available at 
+https://www.researchgate.net/publication/251231364_FinancialPhraseBank-v10
+but a pickled and preprocessed version is available in this quantlet folder.
+
+Please install required Python packages before usage: os, io, collections, nltk, pickle.'
+
+Keywords : text mining, data mining, counts, sentiment
+
+Keywords[new] : text, web data, nlp, tokenization, opinion mining
+
+See also : TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTnlp, TXTMcDbl, TXTMcDlm
+
+Author : Elisabeth Bommes
+
+Submitted : Fri, August 12 2016 by Elisabeth Bommes
+
+Example : Output
+
+lem_Sentences_66Agree.p : 'Preprocessed version of Financial Phrase Bank by Malo et al. (2014).'
+
+lm_neg.csv : 'Negative words in LM lexicon'
+
+lm_pos.csv : 'Positive words in LM lexicon'
+
+bl_neg.csv : 'Negative words in BL lexicon'
+
+bl_pos.csv : 'Positive words in BL lexicon'
+

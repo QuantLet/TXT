@@ -1,3 +1,4 @@
+
 Name of QuantLet : TXTfpbsupervised
 
 Published in : TXT
@@ -25,4 +26,5 @@ Submitted : Fri, August 12 2016 by Elisabeth Bommes
 
 Example : Output
 
-lem_Sentences_66Agree.p : 'Preprocessed version of Financial Phrase Bank by Malo et al. (2014).'
+Datafile :
+- lem_Sentences_66Agree.p : Preprocessed version of Financial Phrase Bank by Malo et al. (2014)

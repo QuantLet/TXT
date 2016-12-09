@@ -1,3 +1,4 @@
+
 Name of QuantLet : TXTMcDbl
 
 Published in : TXT
@@ -13,12 +14,9 @@ See also : TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTnlp, TXTMcDlm
 
 Author : Elisabeth Bommes
 
-Submitted : 
-
 Example : Output
 
-mcd_short.txt : 'Text scraped from Nasdaq community articles. Article is about Mc Donald''s.
-This is the shortened version (example used in slides).'
-
-bl_neg.csv : 'Negative words in BL lexicon'
-bl_pos.csv : 'Positive words in BL lexicon'
+Datafile :
+- mcd_short.txt : Text scraped from Nasdaq community articles. Article is about Mc Donald's. This is the shortened version (example used in slides).
+- bl_neg.csv : Negative words in BL lexicon
+- bl_pos.csv : Positive words in BL lexicon

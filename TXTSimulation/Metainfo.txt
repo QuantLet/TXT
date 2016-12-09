@@ -14,8 +14,7 @@ TXTBreweries, TXTSimulationAttention, XFGSPDcb2'
 
 Author : Elisabeth Bommes
 
-Submitted : 
-
 Example : Plot of entire panel regression
 
-TXTSimulation.RDS : 'Simulated sentiment and volatility values for the "Entire Panel Regression".'
+Datafile :
+- TXTSimulation.RDS : Simulated sentiment and volatility values for the "Entire Panel Regression"

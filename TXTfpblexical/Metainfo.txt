@@ -1,3 +1,4 @@
+
 Name of QuantLet : TXTfpblexical
 
 Published in : TXT
@@ -24,13 +25,9 @@ Submitted : Fri, August 12 2016 by Elisabeth Bommes
 
 Example : Output
 
-lem_Sentences_66Agree.p : 'Preprocessed version of Financial Phrase Bank by Malo et al. (2014).'
-
-lm_neg.csv : 'Negative words in LM lexicon'
-
-lm_pos.csv : 'Positive words in LM lexicon'
-
-bl_neg.csv : 'Negative words in BL lexicon'
-
-bl_pos.csv : 'Positive words in BL lexicon'
-
+Datafile :
+- lem_Sentences_66Agree.p : Preprocessed version of Financial Phrase Bank by Malo et al. (2014)
+- lm_neg.csv : Negative words in LM lexicon
+- lm_pos.csv : Positive words in LM lexicon
+- bl_neg.csv : Negative words in BL lexicon
+- bl_pos.csv : Positive words in BL lexicon

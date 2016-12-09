@@ -1,3 +1,4 @@
+
 Name of QuantLet : TXTnlp
 
 Published in : TXT
@@ -19,4 +20,5 @@ Submitted : Elisabeth Bommes
 
 Example : Output
 
-mcd_long.txt : 'Text scraped from Nasdaq community articles. Article is about Mc Donald''s.'
+Datafile :
+- mcd_long.txt : Text scraped from Nasdaq community articles. Article is about Mc Donald's

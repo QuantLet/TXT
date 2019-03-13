@@ -3,7 +3,7 @@ import io
 from nltk.tokenize import word_tokenize
 
 # Set working directory
-os.chdir('')
+#os.chdir('')
 
 ### Functions
 def rempct(s):

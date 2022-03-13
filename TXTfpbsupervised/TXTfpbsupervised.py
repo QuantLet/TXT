@@ -10,14 +10,14 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
-from sklearn.cross_validation import StratifiedKFold
-from sklearn.cross_validation import cross_val_score
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
 
 # svm
 from sklearn.linear_model import SGDClassifier
 
 # grid search
-from sklearn.grid_search import GridSearchCV
+from sklearn.model_selection import GridSearchCV
 from pprint import pprint
 from time import time
 
@@ -115,10 +115,10 @@ def indexer(index1, index2):
     return [index1[i] for i in index2]
 
 
-def cver(y, x, folds, seed):
+def cver(y, x, splits, seed):
     """Stratified k-fold crossvalidation with upsampling."""
-    skf = StratifiedKFold(y, n_folds = folds, shuffle = True,
-                          random_state = seed)
+        kf = KFold(n_splits = splits, shuffle = True, 
+               random_state = seed)
 
     ind = np.array(list(range(0, len(x))))
 
@@ -126,7 +126,7 @@ def cver(y, x, folds, seed):
     x_train, x_test = [], []
     y_train, y_test = [], []
 
-    for train_set, test_set in skf:
+    for train_set, test_set in kf.split(x):
         x_train.append(x[train_set])
         x_test.append(x[test_set])
         y_train.append(y[train_set])
@@ -209,7 +209,7 @@ df["sentiment"] = df.apply(scores, axis = 1)
 
 # setup
 seed = 123
-folds = 5
+splits = 5
 
 # CountVectorizer
 stop_words = (None, 'english')
@@ -231,12 +231,12 @@ penalty = (None, 'l1', 'l2', 'elasticnet')
 lem = df["lemma"]
 sco = df["sentiment"]
 
-custom_cv = cver(sco, lem, folds, seed)
+custom_cv = cver(sco, lem, splits, seed)
 
 piper = Pipeline([("vect", CountVectorizer(tokenizer = tokenize)),
                   ("tfidf", TfidfTransformer()),
                   ("clf", SGDClassifier(shuffle = True,
-                                        n_iter = 80,
+                                        max_iter = 80,
                                         random_state = seed)),
                   ])
 

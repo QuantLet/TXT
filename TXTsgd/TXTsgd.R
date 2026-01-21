@@ -16,7 +16,7 @@ lapply(c(libraries, "ebmisc"), require, character.only = TRUE)
 
 # add font
 font.add.google("Karla", "karla")
-showtext.auto()
+showtext_auto()
 
 # initialize
 n     = 5000

@@ -9,11 +9,9 @@ Name of QuantLet: TXTfpbsupervised
 
 Published in: TXT
 
-Description: Estimates regularized linear model for sentiment classification
+Description: Estimates regularized linear model for sentiment classification with stochastic gradient descent (SGD) learning. The results are evaluated by using the training set of Malo et al. (2014) and computing a confusion matrix. This training set is available at https://www.researchgate.net/publication/251231364_FinancialPhraseBank-v10 but a pickled and preprocessed version is available in this quantlet folder.
 
-https: //www.researchgate.net/publication/251231364_FinancialPhraseBank-v10
-
-Please install required Python packages before usage: os, io, nltk, pickle, sklearn, pandas, numpy.
+Please install required Python packages before usage: os, io, nltk, pickle, sklearn, pandas, numpy.'
 
 Keywords: text mining, data mining, counts, sentiment, classification, support vector machine, L1-norm penalty
 

@@ -9,7 +9,7 @@ Name of QuantLet: TXTsgd
 
 Published in: TXT
 
-Description: Optimizes least squares loss function via stochastic gradient descent.
+Description: Optimizes least squares loss function via stochastic gradient descent. The results of each iteration are plotted for different choices of eta. eta = 1/i (black), eta = 1/1000 (blue), eta = 1/1500 (green), eta = 1/2000 (orange), eta = 1/2500 (purple)
 
 Keywords: plot, visualization, simulation, normal, optimization, iterative, mean, least-squares, loss function
 

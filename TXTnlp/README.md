@@ -9,9 +9,9 @@ Name of QuantLet: TXTnlp
 
 Published in: TXT
 
-Description: Shows basic functionalities of natural language processing:
+Description: Shows basic functionalities of natural language processing: sentence and word tokenization, part-of-speech tagging, lemmatization, stopword removal and word counting. POS-tags are converted to WordNet compatible tags such that the WordNet lemmatizer can be used.
 
-Please install required Python packages before usage: os, io, types, collections, textblob, nltk.
+Please install required Python packages before usage: os, io, types, collections, textblob, nltk.'
 
 Keywords: text mining, data mining, counts
 
@@ -21,7 +21,7 @@ See also: TXTBreweries, TXTSimulation, TXTSimulationAttention, TXTMcDlm
 
 Author: Elisabeth Bommes
 
-Submitted: Elisabeth Bommes
+Submitted: 09.12.2016
 
 Example: Output
 

@@ -11,7 +11,7 @@ Published in: TXT
 
 Description: Counts positive and negative words using the lexicon by Loughran and McDonald.
 
-Please install required Python packages before usage: os, io, collections, nltk.
+Please install required Python packages before usage: os, io, collections, nltk.'
 
 Keywords: text mining, data mining, counts, sentiment
 

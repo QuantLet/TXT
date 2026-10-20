@@ -9,11 +9,9 @@ Name of QuantLet: TXTfpblexical
 
 Published in: TXT
 
-Description: Counts positive and negative words using the lexicon by Loughran and McDonald
+Description: Counts positive and negative words using the lexicon by Loughran and McDonald and the lexicon by Bing Liu. Then, the results are evaluated by using the training set of Malo et al. (2014) and computing a confusion matrix. This training set is available at https://www.researchgate.net/publication/251231364_FinancialPhraseBank-v10 but a pickled and preprocessed version is available in this quantlet folder.
 
-https: //www.researchgate.net/publication/251231364_FinancialPhraseBank-v10
-
-Please install required Python packages before usage: os, io, collections, nltk, pickle.
+Please install required Python packages before usage: os, io, collections, nltk, pickle.'
 
 Keywords: text mining, data mining, counts, sentiment
 
